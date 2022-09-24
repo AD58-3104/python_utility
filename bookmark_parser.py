@@ -24,7 +24,6 @@ for itm in folders:
 
 output_bookmarks = parser.find_all('dl')
 parsed_text = str(output_bookmarks[folder_no+1])
-print(output_bookmarks[folder_no+1])
 output_file = open('parsed_html.html','w')
 output_file.write(parsed_text)
 output_file.close()
